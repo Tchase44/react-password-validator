@@ -50,7 +50,7 @@ class Validator extends Component {
 
 
   render() {
-      //without out this line it takes 2 clicks to print a change in valid
+      //without out this line it takes 2 clicks to print a change
       let output = (this.state.valid && this.state.email.includes('@')) ? " " : "Username/Password incorrect"
     return (
       <div className="form" >
