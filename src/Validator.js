@@ -55,9 +55,9 @@ class Validator extends Component {
     return (
       <div className="form" >
         <h1>Sign Up</h1>
-        <input onChange={(e) => this.doSomethingWithEmail(e)} type="email"  placeholder="email@email.com"  />
-        <input onChange={(e) => this.passwordHandler(e)} type="password" placeholder="password"  />
-        <input onChange={(e) => this.passwordConfirmHandler(e)} type="password" placeholder="confirm password"  />
+        <input onChange={(e) => this.doSomethingWithEmail(e) } type="email"  placeholder="email@email.com" />
+        <input onChange={(e) => this.passwordHandler(e) } type="password" placeholder="password"  />
+        <input onChange={(e) => this.passwordConfirmHandler(e) } type="password" placeholder="confirm password"  />
         <input type="submit" value="Submit" onClick={(e) => this.validCheck(e)} />
 
         <h1>{output}</h1>
